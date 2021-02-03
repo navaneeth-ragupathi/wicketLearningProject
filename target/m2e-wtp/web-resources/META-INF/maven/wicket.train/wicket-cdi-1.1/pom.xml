@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wicket-cdi-1.1</artifactId>
+    <packaging>war</packaging>
+    <name>Wicket-trainingApp</name>
+    <groupId>wicket.train</groupId>
+    <version>0.1</version>
+    <description>
+        Provides integration between Wicket and CDI containers. Enables injection of
+        components and behaviors, as well as other non-contextual object instances.
+        Also enables propagation of conversations between wicket artifacts such as pages
+        and resources.
+    </description>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-core</artifactId>
+            <version>8.11.0</version>
+        </dependency>
+      </dependencies>
+</project>
